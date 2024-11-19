@@ -1,9 +1,5 @@
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
-  return (
-    <Button size="lg" variant={"outline"}>
-      Click Me
-    </Button>
-  );
+  return <Button size="lg">Click Me</Button>;
 }
